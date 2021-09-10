@@ -1,4 +1,3 @@
-
 /*
  *  UCF COP3330 Fall 2021 roomArea Class file
  *  Copyright 2021 Celina Alzenor
@@ -11,6 +10,7 @@ public class roomArea
     private int length;
     private int width;
 
+    //gets the specification of the room from user
     public roomArea()
     {
         Scanner scan = new Scanner(System.in);
@@ -21,6 +21,7 @@ public class roomArea
         this.width =scan.nextInt();
     }
 
+    //calculates area and converts it from square feet to square meters, prints both
     public void Calculate()
     {
         float C = (float) 0.09290304;
